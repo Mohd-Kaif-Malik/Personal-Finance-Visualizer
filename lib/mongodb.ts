@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-
+const MONGODB_URI=mongodb://localhost:27017/personal-finance;
 const uri = process.env.MONGODB_URI!;
 const options = {};
 
